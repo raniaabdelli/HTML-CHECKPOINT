@@ -2,35 +2,56 @@
 <html>
   <head>    
     <a name="TopOfThePage"> </a>
-    <h2 title="This is a subheading">Rania Abdelli</h2>    
-  </head>
+    <title>rania abdelli</title>
+    <h2 id="First-title">Rania Abdelli</h2>  
+    <script src="https://kit.fontawesome.com/c877801081.js" crossorigin="anonymous"></script>
+    <style>
+        p{color: aliceblue;}
+        table{color:white;}
+        div{color:whitesmoke;}
+        h4{color:aliceblue;
+        font-family:Arial, Helvetica, sans-serif;
+    font-size: larger;}
+    section{color:white;}
     
-    <body>
-        <nav>
+    </style> 
+ 
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
+
+<body>
+    <icon class="fas fa-cloud" style="font-size:60px;color:lightblue;"></icon>
+   
+     
             <a href="file:///C:/Users/ASUS/Desktop/GoMyCode/CoursGoMyCode/HTML/checkpoint.html/">       HOME </a>
             <a href="file:///C:/Users/ASUS/Desktop/GoMyCode/CoursGoMyCode/HTML/checkpoint.html/" >      ABOUT</a>
             <a href="file:///C:/Users/ASUS/Desktop/GoMyCode/CoursGoMyCode/HTML/checkpoint.html/" >      WORK</a>
             <a href="file:///C:/Users/ASUS/Desktop/GoMyCode/CoursGoMyCode/HTML/checkpoint.html/">       RESUME</a>
-            <a href="https://www.linkedin.com/in/rania-abdelli-8bb1b3142/">         CONTACT</a>
-        </nav>
+            <a href="https://www.linkedin.com/in/rania-abdelli-8bb1b3142/">         CONTACT</a>    
         <br>
-        <img src="C:\Users\ASUS\Desktop\GoMyCode\CoursGoMyCode\HTML\me.jpg" alt="my picture"width="200" style="margin-right: 500px;" /> 
+        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptas debitis culpa quam veritatis nobis nulla. Minus, quasi. Similique, fugit.</p>
+        <img src=".\me.jpg" height="200" weight="200" > 
         <section>
-            <p><h2>AboutMe </h2>
+            <p><h2 class="title">AboutMe </h2>
             <h4> Hi! I'm Rania Abdelli, Junior Electronic Engineer in Embedded Systems</h4>
 			<form>Search <input type = "text" name = "search" size="100"/></form>
         </section>
-
+        <div class="circle"></div>
+<div class="parent">
+    <div class="child"></div>
+</div>
         
              
         <section>
-            <p><h2>Contact </h2>
+            <p><h2 class="title">Contact </h2>
             <b>E-mail </b>abdellirania1@gmail.com<br>
             <b>Adresse </b>Rue el madina elmounawra, Kalaa Sghuira, Sousse<br>
             <b>Tél </b>+216 52 17 07 93</p>
             </section>
         <section>
-            <p><h2>Work (Currently looking for a job)</h2>
+            <p><h2 class="title">Work (Currently looking for a job)</h2>
             <p><h4>Instructeur Robotique à RobotLab Sousse</h4> 
                 Activités: Elaboration des activités (EV3, python, Arduino) 
             <h4> Responsable logistique à Neptune Mosaic</h4>
@@ -39,11 +60,11 @@
             </p>
         </section>
         <section>
-            <p><h2>Resume </h2>
+            <p><h2 class="title">Resume </h2>
             </p>
         </section>
         <div>
-            <h2> Certifications </h2>
+            <h2 class="title"> Certifications  </h2>
                 <ul>
                                                     <li type="square"> IOT with ESP32 card </li>
                                                     <li type="square">Raspberry Pi 4 Training </li>
@@ -63,7 +84,7 @@
             <option value="ContactMe">ContactMe</option>
         </select>
     </br>
-    <h2>Mastery of programming languages, software and electronic boards</h2>
+    <h2 class="title">Mastery of programming languages, software and electronic boards</h2>
         <table border="1">
             <tr>
               <th>Programming languages</th>
@@ -88,21 +109,21 @@
             </table>
             <br>
         <audio controls>
-            <source src="C:\Users\ASUS\Desktop\GoMyCode\CoursGoMyCode\HTML\jbelrif.mp3" type="audio/mpeg">
+            <source src="jbelrif.mp3" type="audio/mpeg">
                 Please Check the audio Extension
         </audio>
         <video controls width="300" height="150" autoplay>
-            <source src="C:\Users\ASUS\Desktop\GoMyCode\CoursGoMyCode\HTML\balance.mp4" type="video/mp4" />
+            <source src="balance.mp4" type="video/mp4" />
             Please Check the video extension.
         </video>
         <br>
-        <h2>Media</h2>
+        <h2 class="title">Media</h2>
         <table border="0">
             <tr>
-              <th><img src="C:\Users\ASUS\Desktop\GoMyCode\CoursGoMyCode\HTML\in.jpeg" alt="LinkedInPicture" width="40"/> </td>
-              <th> <img src="C:\Users\ASUS\Desktop\GoMyCode\CoursGoMyCode\HTML\insta.jpeg" alt=InstagramPicture" width="40"/></td>
-              <th><img src="C:\Users\ASUS\Desktop\GoMyCode\CoursGoMyCode\HTML\fb.jpeg" alt="FacebookPicture" width="40"/></td>
-            <th><img src="C:\Users\ASUS\Desktop\GoMyCode\CoursGoMyCode\HTML\GitHub.jpg" alt="GitHubPicture" width="40"/> </td>
+              <th><img src="in.jpeg" alt="LinkedInPicture" width="40"/> </td>
+              <th> <img src="insta.jpeg" alt=InstagramPicture" width="40"/></td>
+              <th><img src="fb.jpeg" alt="FacebookPicture" width="40"/></td>
+            <th><img src="GitHub.jpg" alt="GitHubPicture" width="40"/> </td>
             </tr>
             <tr>
                 <td><a href="https://www.linkedin.com/in/rania-abdelli-8bb1b3142/">LinkedIn</a></th>
@@ -128,7 +149,7 @@
     <div>
        
         <p>
-            All rights are reserved for AbdelliRania.com &copy; 2022        
+          <i>  All rights are reserved for AbdelliRania.com &copy; 2022   </i>     
         </p>
      
     </div>
